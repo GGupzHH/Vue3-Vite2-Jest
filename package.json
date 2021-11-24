@@ -1,0 +1,28 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@vue/test-utils": "2.0.0-rc.17",
+    "@vue/vue3-jest": "^27.0.0-alpha.3",
+    "jest-serializer-vue": "^2.0.2",
+    "jest-transform-stub": "^2.0.0",
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@vitejs/plugin-vue": "^1.9.3",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "vite": "^2.6.4"
+  },
+  "name": "jest-vue",
+  "repository": "git@github.com:GGupzHH/vue-jest.git",
+  "author": "赵雅国 <zhao.yaguo@shinewingdigital.com>",
+  "license": "MIT"
+}
