@@ -1,8 +1,6 @@
 module.exports = {
   "moduleFileExtensions": [
     "js",
-    "jsx",
-    "json",
     "vue"
   ],
   "transform": {
@@ -10,6 +8,7 @@ module.exports = {
     "^.+\\.(vue)$": "@vue/vue3-jest",
     ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
   },
+  "transformIgnorePatterns": ['/node_modules/'],
   "moduleNameMapper": {
     "^@/(.*)$": "<rootDir>/src/$1"
   },
@@ -21,8 +20,9 @@ module.exports = {
   ],
   "testURL": "http://localhost/",
   "collectCoverage": true,
+  "coverageProvider": "v8",
   "collectCoverageFrom": [
-    "src/**/*.{js,vue}",
+    "src/**/*.vue",
     "!src/main.js",
     "!src/App.vue"
   ]
