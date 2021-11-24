@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1637750090088" clover="3.2.0">
+  <project timestamp="1637750090089" name="All files">
+    <metrics statements="12" coveredstatements="8" conditionals="3" coveredconditionals="2" methods="4" coveredmethods="2" elements="19" coveredelements="12" complexity="0" loc="12" ncloc="12" packages="2" files="3" classes="3"/>
+    <package name="components">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="HelloWorld.vue" path="/Users/mzc/Documents/project_self/vue-jest/src/components/HelloWorld.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="/Users/mzc/Documents/project_self/vue-jest/src/components/index.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.IconFont">
+      <metrics statements="9" coveredstatements="8" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <file name="index.vue" path="/Users/mzc/Documents/project_self/vue-jest/src/components/IconFont/index.vue">
+        <metrics statements="9" coveredstatements="8" conditionals="3" coveredconditionals="2" methods="3" coveredmethods="2"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="72" count="2" type="stmt"/>
+        <line num="73" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="75" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
