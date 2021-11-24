@@ -1,0 +1,19 @@
+{
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4"
+  },
+  "name": "jest-vue",
+  "repository": "git@github.com:GGupzHH/vue-jest.git",
+  "author": "赵雅国 <zhao.yaguo@shinewingdigital.com>",
+  "license": "MIT"
+}
