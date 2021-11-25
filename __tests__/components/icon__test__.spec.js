@@ -44,11 +44,21 @@ describe('Component-Icon', () => {
     expect(wrapper.emitted().click).toHaveLength(2)
   })
 
-  // it('Icon shallowMount DOM Click', async () => {
-  //   const wrapper = shallowMount(IconFont)
+  it('Icon shallowMount DOM Click', async () => {
+    const wrapper = shallowMount(IconFont)
 
-  //   await wrapper.find('svg').trigger('click')
+    await wrapper.find('svg').trigger('click')
+    
+    expect(wrapper.emitted().click[1]).toBeTruthy()
+  })
 
-  //   expect(wrapper.emitted().click[1]).toBe([{isTrusted: false}])
-  // })
+  it('Icon shallowMount DOM Click', async () => {
+    const wrapper = shallowMount(IconFont, {
+      props: {
+        shadow: true
+      }
+    })
+
+    expect(wrapper.find('g').attributes('filter')).toBe('url(#drop-shadow)')
+  })
 })
